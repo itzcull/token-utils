@@ -1,15 +1,15 @@
 {
-  "name": "pkg-placeholder",
+  "name": "@itzcull/token-utils",
   "type": "module",
   "version": "0.0.1",
   "packageManager": "pnpm@10.10.0",
-  "description": "_description_",
+  "description": "itzcull's design token utilities",
   "author": "Will Cullen <will@itzcull.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itzcull/pkg-placeholder.git"
+    "url": "git+https://github.com/itzcull/token-utils.git"
   },
-  "bugs": "https://github.com/itzcull/pkg-placeholder/issues",
+  "bugs": "https://github.com/itzcull/token-utils/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
