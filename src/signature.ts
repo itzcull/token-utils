@@ -1,4 +1,4 @@
-import type { JSONObject } from '../json'
+import type { JSONObject } from '@itzcull/json-utils'
 
 export interface TokenSignature<Type extends string, Value, Extensions extends JSONObject = JSONObject> {
   $type: Type

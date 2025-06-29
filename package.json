@@ -34,6 +34,9 @@
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
   },
+  "dependencies": {
+    "@itzcull/json-utils": "catalog:"
+  },
   "devDependencies": {
     "@antfu/ni": "catalog:cli",
     "@itzcull/eslint-config": "catalog:cli",

@@ -1,4 +1,4 @@
-import type { JSONObject } from '../json'
+import type { JSONObject } from '@itzcull/json-utils'
 import type { TokenTypeName } from './types'
 
 export interface GroupProperties {
