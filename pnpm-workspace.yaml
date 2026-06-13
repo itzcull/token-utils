@@ -4,7 +4,7 @@ packages:
   - packages/*
   - examples/*
 catalog:
-  '@itzcull/json-utils': ^0.0.2
+  '@itzcull/json-utils': ^0.0.3
 catalogs:
   cli:
     '@antfu/ni': ^28.1.0
