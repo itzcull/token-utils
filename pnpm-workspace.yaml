@@ -3,6 +3,9 @@ packages:
   - docs
   - packages/*
   - examples/*
+overrides:
+  vite@*: catalog:cli
+  vitest@*: catalog:testing
 catalog:
   '@itzcull/json-utils': ^0.0.2
 catalogs:
@@ -16,9 +19,10 @@ catalogs:
     tsx: ^4.21.0
     typescript: ^5.9.3
     unbuild: ^3.6.1
-    vite: ^7.3.0
+    vite: npm:@voidzero-dev/vite-plus-core@8.3.8000
+    vite-plus: 1.7.0
   testing:
-    vitest: ^4.0.16
+    vitest: 5.1.0
     vitest-package-exports: ^1.1.2
     yaml: ^2.8.2
   types:
@@ -28,3 +32,8 @@ catalogs:
 onlyBuiltDependencies:
   - esbuild
   - simple-git-hooks
+peerDependencyRules:
+  allowAny:
+    - vitest
+  allowedVersions:
+    vitest: '*'
